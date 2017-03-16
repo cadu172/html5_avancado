@@ -1,3 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\inetpub\wwwroot\phpserver\html5_avancado\CursoHTML5_Avancado.clpprj">
-	<settings><PM_URL><![CDATA[C:/Users/carlos/AppData/Roaming/ClPhpEd/Projects/]]></PM_URL><PM_HOME_URL><![CDATA[C:/Users/carlos/AppData/Roaming/ClPhpEd/Projects/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS></settings></project>
+	<settings><PM_URL><![CDATA[C:/Users/carlos/AppData/Roaming/ClPhpEd/Projects/]]></PM_URL><PM_HOME_URL><![CDATA[C:/Users/carlos/AppData/Roaming/ClPhpEd/Projects/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\01_html5_estrutura_basica.html"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\index.html"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\02_html5_compatibilidade.html"/>
+	</lastopfiles>
+	<todoblock>
+	</todoblock>
+	<filescache>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\index.html" crc="1489438631"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\02_html5_compatibilidade.html" crc="1489439144"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\01_html5_estrutura_basica.html" crc="1489437593"/>
+	</filescache>
+</project>
