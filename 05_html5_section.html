@@ -1,35 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>		
-		<title>HTML5 - Avançado ( SchoolOfNet ) - Aula 2</title>
+	<head>
 		<meta charset="utf-8">
-		<meta name="keywords" content="HTML5, DOCTYPE, Compatibilidade"/>
-		<meta name="description" content="Aula sobre a compatibilidade dos navegadores antigos com HTML5, Aula 2 do Curso da SchoolOfNet"/>
+		<title>HTML5 - Avançado ( SchoolOfNet ) - Aula 4</title>
+		<meta name="keywords" content="HTML5, DOCTYPE, Semantica HTML"/>
+		<meta name="description" content="Aula sobre a implementação da TAG header seguindo a semantica HTML5, Aula 4 do Curso da SchoolOfNet"/>
 		<meta name="author" content="Carlos Eduardo dos Santos Roberto - cadu172@gmail.com"/>
-		<meta name="robots" content="index, follow"/>				
-		
-		<script type="text/javascript">
-			document.createElement("novoElemento");
-		</script>
-		
+		<meta name="robots" content="index, follow"/>		
 		<style>
 			
 			header, section, nav, article, footer, main, figure 
 			{
 				display: block;
-			}
-			
-			novoElemento
-			{
-				background-color: #F5F5F5;
-				font-family: Calibri;
-				font-size: 16px;
-				text-align: center;
-				width: 300px;
-				float: left;
-				display: block;
-			}
-			
+			}			
+		
 		</style>
 		
 	    <!--[if lt IE 9]>
@@ -39,8 +23,9 @@
 	</head>
 	<body>
 		
-		<header>
-			<h1>Aula 2 - Compatibilidade dos Navegadores com HTML 5</h1>
+		<!-- AULA 4 SOBRE ESTA TAG <HEDAER> -->
+		<header>		
+			<h1>Aula 5 - Semantica e definição da SECTION</h1>			
 			<h2>Menu de Navegação</h2>
 			<ul id="menu_principal">
 				<ul>
@@ -50,7 +35,8 @@
 			</ul>
 		</header>
 		
-		<section>
+		<!-- AULA SOBRE A TAG SECTION UTILIZANDO A SEMANTICA DO HTML 5 -->
+		<section id="principal">
 			<article>
 				<header>
 					<h1>Title of Article</h1>
@@ -60,11 +46,9 @@
 					Footer of Article
 				</footer>
 			</article>
-		</section>
+		</section>	
 		
-		<novoElemento>
-			Novo elemento HTML5
-		</novoElemento>
+		<!-- fimn -->	
 		
 		<footer>
 			Curso de HTML5 - SchoolOfNet
