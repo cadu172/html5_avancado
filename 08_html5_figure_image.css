@@ -1,0 +1,8 @@
+header, section, nav, article, footer, main, figure 
+{
+	display: block;
+}
+
+main aside, main section{
+	display: inline-block;
+}

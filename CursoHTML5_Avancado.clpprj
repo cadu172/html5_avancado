@@ -2,11 +2,22 @@
 <project name="C:\inetpub\wwwroot\phpserver\html5_avancado\CursoHTML5_Avancado.clpprj">
 	<settings><PM_URL><![CDATA[C:/Users/carlos/AppData/Roaming/ClPhpEd/Projects/]]></PM_URL><PM_HOME_URL><![CDATA[C:/Users/carlos/AppData/Roaming/ClPhpEd/Projects/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
 		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\index.html"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\08_html5_figure_image.css"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\09_html5_input_types.html"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\09_html5_input_types.css"/>
 	</lastopfiles>
 	<todoblock>
 	</todoblock>
 	<filescache>
-		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\index.html" crc="1489673699"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\index.html" crc="1490801495"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\09_html5_input_types.html" crc="1490802347"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\09_html5_input_types.css" crc="1490800318"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\08_html5_figure_image.html" crc="1490801347"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\08_html5_figure_image.css" crc="1490800318"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\07_html5_rodape_footer.html" crc="1490800670"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\07_html5_rodape_footer.css" crc="1490800318"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\06_html5_aside.html" crc="1490800259"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\06_html5_aside.css" crc="1490800318"/>
 		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\05_html5_section.html" crc="1489672274"/>
 		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\04_html5_semantica_cabecalho.html" crc="1489672274"/>
 		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\03_html5_metadados.html" crc="1489672274"/>
