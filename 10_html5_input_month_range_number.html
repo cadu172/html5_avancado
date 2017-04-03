@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>HTML5 - Avançado ( SchoolOfNet ) - Aula 9</title>
+		<meta name="keywords" content="HTML5, DOCTYPE, Semantica HTML"/>
+		<meta name="description" content="Aula 9 - Trabalhando com INPUT TYPE"/>
+		<meta name="author" content="Carlos Eduardo dos Santos Roberto - cadu172@gmail.com"/>
+		<meta name="robots" content="index, follow"/>		
+		<link href="10_html5_input_month_range_number.css" rel="stylesheet" type="text/css">
+		
+	    <!--[if lt IE 9]>
+	    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+		<script>
+			
+			function onChange_rangeTeste(value)
+			{
+				document.getElementById("txtRange").value = value;
+			}
+			
+		</script>
+	
+	</head>
+	<body>
+		
+		<!-- AULA 10 SOBRE AS TAGS MONTH, NUMBER E RANGE -->
+		<header>		
+			<h1>Aula 10 - Trabalhando com INPUT TYPE (MONTH/RANGE/NUMBER)</h1>			
+			<h2>Menu de Navegação</h2>
+			<ul id="menu_principal">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</ul>
+		</header>
+		
+		<!-- AULA SOBRE A TAG SECTION UTILIZANDO A SEMANTICA DO HTML 5 -->
+		<main>
+			<section id="principal">
+				<article>
+					<header>
+						<h1>Trabalhando com Elementos Input Type (HTML5)</h1>
+						<p>aula sobre como trabalhar com os elementos de entrada de formulário...</p>
+					</header>
+					
+					<form action="#" method="post">
+
+						<div class="form-group">
+							<label>Input (Month):</label>
+							<input type="month"/>
+						</div>
+
+						<div class="form-group">
+							<label>Input (Number):</label>
+							<input type="number" min="0" max="100" step="5"/>
+						</div>						
+
+						<div class="form-group">
+							<label>Input (Range):</label>
+							<input type="range" min="18" max="65" step="5" id="rangeTeste" onchange="onChange_rangeTeste(this.value)" />
+							<input type="text" name="txtRange" id="txtRange" value="0"/>
+						</div>						
+						
+						<button>Enviar Dados</button>
+					</form>
+					
+					<footer>						
+					</footer>
+				</article>
+			</section>
+			<aside>
+				<h3>SideBar</h3>
+				<ul>
+					<li>Elemento Color...</li>
+					<li>Elemento Date</li>
+					<li>Elemento DateTime</li>
+				</ul>
+			</aside>	
+		</main>
+		
+		<!-- fimn -->	
+		
+		<footer>
+			<p>Curso de HTML5 - SchoolOfNet</p>
+			<small>&copy Carlos Eduardo dos Santos Roberto</small>
+			
+		</footer>
+		
+	</body>
+</html>
