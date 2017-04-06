@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\inetpub\wwwroot\phpserver\html5_avancado\CursoHTML5_Avancado.clpprj">
 	<settings><PM_URL><![CDATA[C:/Users/carlos/AppData/Roaming/ClPhpEd/Projects/]]></PM_URL><PM_HOME_URL><![CDATA[C:/Users/carlos/AppData/Roaming/ClPhpEd/Projects/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\12_html5_list_tratamento_erro.html"/>
 		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\index.html"/>
-		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\08_html5_figure_image.css"/>
-		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\09_html5_input_types.html"/>
-		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\09_html5_input_types.css"/>
 	</lastopfiles>
+	<errors version="5.11">
+		<errfile name="C:\inetpub\wwwroot\phpserver\html5_avancado\12_html5_list_tratamento_erro.html">
+			<error val="54;53;121;53;2002;1;"/>
+		</errfile>
+	</errors>
 	<todoblock>
 	</todoblock>
 	<filescache>
-		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\index.html" crc="1490801495"/>
-		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\09_html5_input_types.html" crc="1490802347"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\index.html" crc="1491482142"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\12_html5_list_tratamento_erro.html" crc="1491482835"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\12_html5_list_tratamento_erro.css" crc="1490800318"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\11_html5_search_time_url_week.html" crc="1491417947"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\11_html5_search_time_url_week.css" crc="1490800318"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\10_html5_input_month_range_number.html" crc="1491249209"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\10_html5_input_month_range_number.css" crc="1490800318"/>
+		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\09_html5_input_types.html" crc="1491231240"/>
 		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\09_html5_input_types.css" crc="1490800318"/>
 		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\08_html5_figure_image.html" crc="1490801347"/>
 		<file name="C:\inetpub\wwwroot\phpserver\html5_avancado\08_html5_figure_image.css" crc="1490800318"/>

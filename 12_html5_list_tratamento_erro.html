@@ -2,23 +2,32 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>HTML5 - Avançado ( SchoolOfNet ) - Aula 9</title>
+		<title>HTML5 - Avançado ( SchoolOfNet ) - Aula 11</title>
 		<meta name="keywords" content="HTML5, DOCTYPE, Semantica HTML"/>
-		<meta name="description" content="Aula 9 - Trabalhando com INPUT TYPE"/>
+		<meta name="description" content="Aula 12 - List e Tratamento de Erros"/>
 		<meta name="author" content="Carlos Eduardo dos Santos Roberto - cadu172@gmail.com"/>
 		<meta name="robots" content="index, follow"/>		
-		<link href="09_html5_input_types.css" rel="stylesheet" type="text/css">
+		<link href="12_html5_list_tratamento_erro.css" rel="stylesheet" type="text/css">
 		
 	    <!--[if lt IE 9]>
 	    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+		
+		<script>
+			
+			function onChange_rangeTeste(value)
+			{
+				document.getElementById("txtRange").value = value;
+			}
+			
+		</script>
 	
 	</head>
 	<body>
 		
-		<!-- AULA 4 SOBRE ESTA TAG <HEDAER> -->
+		<!-- AULA 10 SOBRE AS TAGS MONTH, NUMBER E RANGE -->
 		<header>		
-			<h1>Aula 9 - Trabalhando com INPUT TYPE</h1>			
+			<h1>Aula 12 - List e Tratamento de Erros</h1>			
 			<h2>Menu de Navegação</h2>
 			<ul id="menu_principal">
 				<ul>
@@ -39,26 +48,18 @@
 					</header>
 					
 					<form action="#" method="post">
-						<div class="form-group">
-							<label>Input (Color):</label>
-							<input type="color"/>
-						</div>
-						
-						<div class="form-group">
-							<label>Input (Date):</label>
-							<input type="date"/>
-						</div>
-						
-						<div class="form-group">
-							<label>Input (Date-Time-local):</label>
-							<input type="datetime-local"/>
-						</div>
 
 						<div class="form-group">
-							<label>Input (E-Mail):</label>
-							<input type="email"/>
+							<label>Input (LIST):</label>
+							<input list="lista_times" name="listagem_times" x-moz-errormessage="Obrigatório Selecionar o Time Campeão Mundial" title="Obrigatório Selecionar o Time Campeão Mundial" required />
+							<datalist id="lista_times">
+								<option value="São Paulo FC"></option>
+								<option value="Corinthians"></option>
+								<option value="Palmeiras"></option>
+								<option value="Santos"></option>
+							</datalist>
 						</div>
-						
+
 						<button>Enviar Dados</button>
 					</form>
 					
