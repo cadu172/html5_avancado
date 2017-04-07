@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>HTML5 - Avançado ( SchoolOfNet ) - Aula 14</title>
+		<meta name="keywords" content="HTML5, DOCTYPE, Semantica HTML"/>
+		<meta name="description" content="Aula 13 - Utilizando Autocomplete nos formularios"/>
+		<meta name="author" content="Carlos Eduardo dos Santos Roberto - cadu172@gmail.com"/>
+		<meta name="robots" content="index, follow"/>		
+		<link href="14_html5_autocomplete.css" rel="stylesheet" type="text/css">
+		
+	    <!--[if lt IE 9]>
+	    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+		<script>
+			
+			function onChange_rangeTeste(value)
+			{
+				document.getElementById("txtRange").value = value;
+			}
+			
+		</script>
+	
+	</head>
+	<body>
+		
+		<!-- Aula 13 - Trabalhando com Output -->
+		<header>		
+			<h1>Aula 14 - Utilizando Autocomplete</h1>			
+			<h2>Menu de Navegação</h2>
+			<ul id="menu_principal">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</ul>
+		</header>
+		
+		<!-- UTILIZANDO AUTOCOMPLETE NO FORMULARIO -->
+		<main>
+			<section id="principal">
+				<article>
+					<header>
+						<h1>Utilizando AutoComplete</h1>
+						<p>aula sobre como trabalhar com os elementos de entrada de formulário...</p>
+					</header>
+					
+					<form autocomplete="on">
+						<div class="form-group">
+							<label>Nome (Set On):</label>
+							<input type="text" name="nome" size="50" maxlength="100" placeholder="Informe seu nome completo" />
+						</div>
+						<div class="form-group">
+							<label>E-Mail (Set Off):</label>
+							<input type="email" name="email" size="50" maxlength="100" placeholder="Informe seu e-mail" />
+						</div>						
+						<button>Enviar Dados</button>
+					</form>
+					
+					<footer>						
+					</footer>
+				</article>
+			</section>
+			<aside>
+				<h3>SideBar</h3>
+				<ul>
+					<li>Elemento Color...</li>
+					<li>Elemento Date</li>
+					<li>Elemento DateTime</li>
+				</ul>
+			</aside>	
+		</main>
+		
+		<!-- fimn -->	
+		
+		<footer>
+			<p>Curso de HTML5 - SchoolOfNet</p>
+			<small>&copy Carlos Eduardo dos Santos Roberto</small>
+			
+		</footer>
+		
+	</body>
+</html>

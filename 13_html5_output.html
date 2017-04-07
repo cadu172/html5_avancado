@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>HTML5 - Avançado ( SchoolOfNet ) - Aula 13</title>
+		<meta name="keywords" content="HTML5, DOCTYPE, Semantica HTML"/>
+		<meta name="description" content="Aula 13 - Trabalhando com Output"/>
+		<meta name="author" content="Carlos Eduardo dos Santos Roberto - cadu172@gmail.com"/>
+		<meta name="robots" content="index, follow"/>		
+		<link href="13_html5_output.css" rel="stylesheet" type="text/css">
+		
+	    <!--[if lt IE 9]>
+	    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+		<script>
+			
+			function onChange_rangeTeste(value)
+			{
+				document.getElementById("txtRange").value = value;
+			}
+			
+		</script>
+	
+	</head>
+	<body>
+		
+		<!-- Aula 13 - Trabalhando com Output -->
+		<header>		
+			<h1>Aula 13 - Trabalhando com Output</h1>			
+			<h2>Menu de Navegação</h2>
+			<ul id="menu_principal">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</ul>
+		</header>
+		
+		<!-- AULA SOBRE A TAG SECTION UTILIZANDO A SEMANTICA DO HTML 5 -->
+		<main>
+			<section id="principal">
+				<article>
+					<header>
+						<h1>Trabalhando com Elementos Input Type (HTML5)</h1>
+						<p>aula sobre como trabalhar com os elementos de entrada de formulário...</p>
+					</header>
+					
+					<form action="#" method="post">
+						<div class="form-group">
+							<label>Input (RANGE):</label>
+							0&nbsp;<input type="range" name="myrange" value="100" min="0" max="200" step="1" oninput="out_range.value=parseInt(myrange.value)" />&nbsp;200<br /><br />
+							Valor do Range:
+							<output name="out_range"></output><br />(*)Elemento output
+						</div>
+					</form>
+					
+					<footer>						
+					</footer>
+				</article>
+			</section>
+			<aside>
+				<h3>SideBar</h3>
+				<ul>
+					<li>Elemento Color...</li>
+					<li>Elemento Date</li>
+					<li>Elemento DateTime</li>
+				</ul>
+			</aside>	
+		</main>
+		
+		<!-- fimn -->	
+		
+		<footer>
+			<p>Curso de HTML5 - SchoolOfNet</p>
+			<small>&copy Carlos Eduardo dos Santos Roberto</small>
+			
+		</footer>
+		
+	</body>
+</html>
